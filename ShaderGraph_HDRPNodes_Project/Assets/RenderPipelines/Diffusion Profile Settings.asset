@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: b2686e09ec7aef44bad2843e4416f057, type: 3}
+  m_Name: Diffusion Profile Settings
+  m_EditorClassIdentifier: 
+  profiles:
+  - name: FPS Sample Skin
+    scatteringDistance: {r: 0.6509434, g: 0.3469651, b: 0.3469651, a: 1}
+    transmissionTint: {r: 1, g: 1, b: 1, a: 1}
+    texturingMode: 0
+    transmissionMode: 0
+    thicknessRemap: {x: 0, y: 5}
+    worldScale: 0.2
+    ior: 1.09
+  - name: FPS Sample Foliage
+    scatteringDistance: {r: 2.1333334, g: 2.9960785, b: 0.6117647, a: 1}
+    transmissionTint: {r: 5.2164755, g: 5.2164755, b: 5.2164755, a: 1}
+    texturingMode: 0
+    transmissionMode: 0
+    thicknessRemap: {x: 0, y: 28.398922}
+    worldScale: 0.05
+    ior: 1.21
+  - name: FPS Sample BeesWax
+    scatteringDistance: {r: 6.045638, g: 3.7983067, b: 1.5193226, a: 1}
+    transmissionTint: {r: 5.992157, g: 5.992157, b: 5.992157, a: 1}
+    texturingMode: 0
+    transmissionMode: 0
+    thicknessRemap: {x: 0, y: 50}
+    worldScale: 0.25
+    ior: 1.166
+  - name: FPS Sample Mushrooms
+    scatteringDistance: {r: 0.6037736, g: 0.40156642, b: 0.504663, a: 1}
+    transmissionTint: {r: 5.992157, g: 3.1058824, b: 4.2980394, a: 1}
+    texturingMode: 0
+    transmissionMode: 0
+    thicknessRemap: {x: 0, y: 13.966756}
+    worldScale: 0.05
+    ior: 1.4
+  - name: FPS Sample Berry
+    scatteringDistance: {r: 1.6360266, g: 0.43987507, b: 0.8459257, a: 1}
+    transmissionTint: {r: 99.35119, g: 99.35119, b: 99.35119, a: 1}
+    texturingMode: 0
+    transmissionMode: 1
+    thicknessRemap: {x: 0, y: 15.803629}
+    worldScale: 0.005
+    ior: 1.792
+  - name: FPS Sample Lianas
+    scatteringDistance: {r: 0.6226415, g: 0.6226415, b: 0.6226415, a: 1}
+    transmissionTint: {r: 21.361254, g: 21.221228, b: 20.454409, a: 1}
+    texturingMode: 0
+    transmissionMode: 1
+    thicknessRemap: {x: 0, y: 5}
+    worldScale: 1
+    ior: 1.4
+  - name: FPS Sample Goo
+    scatteringDistance: {r: 10.554973, g: 31.999996, b: 17.424082, a: 1}
+    transmissionTint: {r: 7.999999, g: 7.999999, b: 7.999999, a: 1}
+    texturingMode: 0
+    transmissionMode: 0
+    thicknessRemap: {x: 0, y: 5}
+    worldScale: 0.3
+    ior: 1.4
+  - name: BOTD Foliage
+    scatteringDistance: {r: 0.47317052, g: 0.75686276, b: 0.24313726, a: 1}
+    transmissionTint: {r: 1.3032948, g: 1.4142135, b: 0, a: 1}
+    texturingMode: 0
+    transmissionMode: 1
+    thicknessRemap: {x: 0, y: 0.1}
+    worldScale: 1
+    ior: 1.4
+  - name: MML Fabric
+    scatteringDistance: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    transmissionTint: {r: 1, g: 1, b: 1, a: 1}
+    texturingMode: 0
+    transmissionMode: 1
+    thicknessRemap: {x: 0.19, y: 10.35}
+    worldScale: 1
+    ior: 1.159
+  - name: MML Leather
+    scatteringDistance: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    transmissionTint: {r: 1, g: 1, b: 1, a: 1}
+    texturingMode: 0
+    transmissionMode: 0
+    thicknessRemap: {x: 0, y: 50}
+    worldScale: 1
+    ior: 1.3
+  - name: Profile 11
+    scatteringDistance: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    transmissionTint: {r: 1, g: 1, b: 1, a: 1}
+    texturingMode: 0
+    transmissionMode: 0
+    thicknessRemap: {x: 0, y: 5}
+    worldScale: 1
+    ior: 1.4
+  - name: Profile 12
+    scatteringDistance: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    transmissionTint: {r: 1, g: 1, b: 1, a: 1}
+    texturingMode: 0
+    transmissionMode: 0
+    thicknessRemap: {x: 0, y: 5}
+    worldScale: 1
+    ior: 1.4
+  - name: Profile 13
+    scatteringDistance: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    transmissionTint: {r: 1, g: 1, b: 1, a: 1}
+    texturingMode: 0
+    transmissionMode: 0
+    thicknessRemap: {x: 0, y: 5}
+    worldScale: 1
+    ior: 1.4
+  - name: Profile 14
+    scatteringDistance: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    transmissionTint: {r: 1, g: 1, b: 1, a: 1}
+    texturingMode: 0
+    transmissionMode: 0
+    thicknessRemap: {x: 0, y: 5}
+    worldScale: 1
+    ior: 1.4
+  - name: Profile 15
+    scatteringDistance: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    transmissionTint: {r: 1, g: 1, b: 1, a: 1}
+    texturingMode: 0
+    transmissionMode: 0
+    thicknessRemap: {x: 0, y: 5}
+    worldScale: 1
+    ior: 1.4
