@@ -40,7 +40,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_36F07A04: -1
-    - Vector1_4E7238AB: 0.5
+    - Vector1_4E7238AB: 0.4
     - _Grass_Influence_Amount: 0.12
     m_Colors:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}

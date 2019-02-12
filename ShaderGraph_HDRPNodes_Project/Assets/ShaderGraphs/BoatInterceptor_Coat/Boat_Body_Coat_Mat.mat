@@ -132,11 +132,11 @@ Material:
     m_Floats:
     - Vector1_16D204FD: 0
     - Vector1_1894E3D7: 1
-    - Vector1_2133BE5: 0.86
+    - Vector1_2133BE5: 0.811
     - Vector1_664A20FD: 0
     - Vector1_7EDD62E6: 1.11
-    - Vector1_92F3FAD0: 0.63
-    - Vector1_D6EE6F3B: 0.2
+    - Vector1_92F3FAD0: 0.74
+    - Vector1_D6EE6F3B: 0.709
     - Vector1_F2AFD40E: 0.62
     - _AORemapMax: 1
     - _AORemapMin: 0

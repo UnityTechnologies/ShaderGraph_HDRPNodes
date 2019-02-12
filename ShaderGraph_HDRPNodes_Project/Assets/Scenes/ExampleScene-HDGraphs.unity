@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0650612, g: 0.084034026, b: 0.12168567, a: 1}
+  m_IndirectSpecularColor: {r: 0.06503002, g: 0.08398005, b: 0.12161304, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -178,7 +178,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 134941440}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.602, y: 2.681, z: 0.329}
+  m_LocalPosition: {x: -8.5, y: 0.8, z: 0.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 999811514}
@@ -198,8 +198,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f80382f8dfafe5c47ba3dfb6c0b492ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  influenceAmount: 0.44
-  influenceAreaColor: {r: 0, g: 0, b: 0, a: 0}
+  influenceAmount: 0.52
+  influenceAreaColor: {r: 1, g: 0, b: 0, a: 0}
 --- !u!1 &163699204
 GameObject:
   m_ObjectHideFlags: 0
@@ -1288,7 +1288,7 @@ GameObject:
   - component: {fileID: 686404188}
   - component: {fileID: 686404187}
   m_Layer: 0
-  m_Name: DancingGirl-ShaderGraph-Glass (1)
+  m_Name: DancingGirl-ShaderGraph-BlueLeather
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2138,13 +2138,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255627718}
-  m_LocalRotation: {x: -0.06779142, y: 0.89693296, z: -0.34443313, w: -0.26885203}
+  m_LocalRotation: {x: -0.013473565, y: 0.92780536, z: -0.35078242, w: -0.12628351}
   m_LocalPosition: {x: 0, y: 5.889, z: 4.427}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1387725086}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 40.868004, y: 215.17, z: 4.8240004}
+  m_LocalEulerAnglesHint: {x: 40.868004, y: 197.3, z: 4.8240004}
 --- !u!1 &1281471394
 GameObject:
   m_ObjectHideFlags: 0
@@ -2447,6 +2447,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5491588452814051172, guid: 975e09bbcf51cb346a64a388a023070e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 975e09bbcf51cb346a64a388a023070e, type: 3}
@@ -2927,7 +2932,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1956312812
 Transform:
   m_ObjectHideFlags: 0

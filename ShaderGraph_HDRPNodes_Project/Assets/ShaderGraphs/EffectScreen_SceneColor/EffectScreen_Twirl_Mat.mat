@@ -22,6 +22,6 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - Vector1_DA2CD966: -17.4
+    - Vector1_DA2CD966: 10
     m_Colors:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
