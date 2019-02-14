@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Silk_Mat
+  m_Shader: {fileID: -6465566751694194690, guid: ac3dde6ca7c4b7148b55325cbb03c460,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseColorMap:
+        m_Texture: {fileID: 2800000, guid: 5c20e704f07c8174b97f68371564bb81, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FuzzMap:
+        m_Texture: {fileID: 2800000, guid: 7ef30347c75684040905ed3d404ecf38, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 2800000, guid: 5bb56da7986289d4b9bb1ee24463b163, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: b942d2d20c8e25c498f7dfffcdbfb2da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThreadMap:
+        m_Texture: {fileID: 2800000, guid: 98baa167a955b704493e5d228ece8f8d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Anisotropy: 0.019
+    - _FuzzMapUVScale: 0.57
+    - _FuzzStrength: 0.204
+    - _NormalMapStrength: 0.6
+    - _SmoothnessMax: 0.341
+    - _SmoothnessMin: 0.054
+    - _ThreadAOStrength01: 0.548
+    - _ThreadNormalStrength: 0.013
+    - _ThreadSmoothnessScale: 0.8
+    - _useThreadMap: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 0.99024177, b: 0.6745283, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 0, g: 0, b: 0, a: 0}
+    - _uvBaseMask: {r: 1, g: 1, b: 0, a: 0}
+    - _uvBaseST: {r: 5, g: 5, b: 0, a: 0}
+    - _uvThreadMask: {r: 3, g: 3, b: 0, a: 0}
+    - _uvThreadST: {r: 3, g: 3, b: 0, a: 0}
